@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Schedule</title>
+
+<style>
+    body{
+        font-family: "Times New Roman", serif;
+        display:flex;
+        justify-content:center;
+        margin-top:30px;
+    }
+
+    table{
+        border-collapse:collapse;
+        width:900px;
+    }
+
+    h2{
+        text-align:center;
+        margin-bottom:15px;
+    }
+
+    table, th, td{
+        border:1px solid #555;
+    }
+
+    th, td{
+        padding:10px;
+        text-align:left;
+        vertical-align:middle;
+    }
+
+    th{
+        text-align:center;
+    }
+
+    .time{
+        text-align:center;
+        font-weight:bold;
+        width:120px;
+    }
+</style>
+</head>
+<body>
+
+<div>
+    <h2>Weekly Schedule</h2>
+
+    <table>
+        <tr>
+            <th class="time">Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+
+        <!-- Morning -->
+        <tr>
+            <td rowspan="2">Morning</td>
+            <td>Math</td>
+            <td rowspan="2" colspan="2">Science Lab</td>
+            <td>History</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <td>Physics</td>
+            <td>Geography</td>
+            <td>Sports</td>
+        </tr>
+
+        <!-- Afternoon -->
+        <tr>
+            <td>Afternoon</td>
+            <td colspan="5">Lunch Break</td>
+        </tr>
+
+        <!-- Evening -->
+        <tr>
+            <td>Evening</td>
+            <td>Computer Science</td>
+            <td>Art</td>
+            <td rowspan="2">Music</td>
+            <td>Drama</td>
+            <td>Free Period</td>
+        </tr>
+
+        <!-- Late Evening -->
+        <tr>
+            <td>Late Evening</td>
+            <td colspan="2">Self Study</td>
+            <td>Debate</td>
+            <td>Sports</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
